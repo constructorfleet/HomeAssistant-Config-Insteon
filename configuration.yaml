@@ -1,0 +1,29 @@
+homeassistant:
+  latitude: !secret home_latitude
+  longitude: !secret home_longitude
+  elevation: !secret home_elevation
+  unit_system: imperial
+  time_zone: !secret home_timezone
+  name: Insteon
+  auth_providers:
+    - type: trusted_networks
+      trusted_networks:
+        - 172.20.0.0/16
+        - 10.0.12.0/24
+        - 10.0.11.174/32
+      allow_bypass_login: true
+    - type: homeassistant
+
+http:
+  base_url: https://insteon.automation.home.prettybaked.com
+  
+frontend:
+
+config:
+
+insteon: !include insteon.yaml
+
+# view_event: !include view_event.yaml
+
+mqtt: !include mqtt.yaml
+mqtteventstream: !include eventstream.yaml

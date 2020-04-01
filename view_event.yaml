@@ -1,0 +1,8 @@
+components:
+  - switch
+  - light
+  - climate
+  - cover
+  - fan
+  - lock
+  - webhook

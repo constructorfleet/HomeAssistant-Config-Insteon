@@ -1,2 +1,2 @@
 # HomeAssistant-Config-Insteon
-Home-Assistant Configuration for Insteon Integration 
+Home-Assistant Configuration for Insteon Integration

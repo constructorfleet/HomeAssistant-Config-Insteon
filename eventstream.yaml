@@ -1,0 +1,11 @@
+publish_topic: events/slaves/insteon
+state_publish_topic: states/slaves/insteon
+route_publish_topic: routes/slaves/insteon
+subscribe_topic: events/master
+subscribe_rules_topic: events/rules
+ignore_event:
+  - call_service
+  - component_loaded
+  - platform_discovered
+  - ios.notification_action_fired
+  - request_routes

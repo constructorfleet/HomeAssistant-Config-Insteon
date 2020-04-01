@@ -1,0 +1,20 @@
+broker: mqtt
+client_id: insteon
+birth_message:
+  topic: events/slaves/insteon/instance_state
+  qos: 1
+  retain: true
+  payload: >
+    {
+      "event_type": "instance_state.connected",
+      "event_data": "insteon"
+    }
+will_message:
+  topic: events/slaves/insteon/instance_state
+  qos: 1
+  retain: true
+  payload: >
+    {
+      "event_type": "instance_state.disconnected",
+      "event_data": "insteon"
+    }
