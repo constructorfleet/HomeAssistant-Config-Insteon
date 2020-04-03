@@ -1,4 +1,4 @@
-broker: mqtt
+broker: automation_mqtt
 client_id: insteon
 birth_message:
   topic: events/slaves/insteon/instance_state
