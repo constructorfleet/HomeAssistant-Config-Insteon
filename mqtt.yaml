@@ -1,5 +1,6 @@
 broker: automation_mqtt
 client_id: insteon
+port: 1883
 birth_message:
   topic: events/slaves/insteon/instance_state
   qos: 1
