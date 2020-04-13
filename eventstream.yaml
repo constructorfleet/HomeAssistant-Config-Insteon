@@ -5,7 +5,5 @@ subscribe_topic: events/master
 subscribe_rules_topic: events/rules
 ignore_event:
   - call_service
-  - component_loaded
-  - platform_discovered
   - ios.notification_action_fired
   - request_routes
