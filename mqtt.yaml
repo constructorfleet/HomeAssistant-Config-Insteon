@@ -8,7 +8,9 @@ birth_message:
   payload: >
     {
       "event_type": "instance_state.connected",
-      "event_data": "insteon"
+      "event_data": {
+        "instance_name": "insteon"
+      }
     }
 will_message:
   topic: events/slaves/insteon/instance_state
@@ -17,5 +19,7 @@ will_message:
   payload: >
     {
       "event_type": "instance_state.disconnected",
-      "event_data": "insteon"
+      "event_data": {
+        "instance_name": "insteon"
+      }
     }
