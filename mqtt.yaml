@@ -1,4 +1,4 @@
-broker: automation_mqtt
+broker: homebridge-iot.home.prettybaked.com
 client_id: insteon
 port: 1883
 birth_message:
