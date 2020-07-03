@@ -1,0 +1,8 @@
+[submodule "custom_components/mqtteventstream"]
+	path = custom_components/mqtteventstream
+	url = https://github.com/constructorfleet/HomeAssistant-Component-MQTTEventStream.git
+	branch = master
+[submodule "custom_components/view_event"]
+	path = custom_components/view_event
+	url = https://github.com/constructorfleet/HomeAssistant-Component-ViewEvent.git
+	branch = master
