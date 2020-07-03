@@ -1,8 +1,0 @@
-.storage/
-.idea/
-venv/
-deps/
-secrets.yaml
-home-assistant.log
-.HA_VERSION
-__pycache__/
