@@ -1,1 +1,5 @@
 port: !secret insteon_usb_path
+device_override:
+  address: 4F.98.11
+  cat: 0x10
+  subcat: 0x16
